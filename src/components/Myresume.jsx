@@ -3,9 +3,9 @@ import pdf from './pdf/huzaifa_frontend_web_developer_CV.pdf'
 
 const Myresume = () => {
     return (
-        <section id='Resume' className="bg-[linear-gradient(135deg,_#1e3c72,_#2a5298)] bg-cover bg-center text-white py-24">
+        <section id='Resume' className="bg-[linear-gradient(135deg,_#1e3c72,_#2a5298)] bg-cover bg-center text-white md:py-24 py-12">
             <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-6 lg:px-20">
-                <div>
+                <div className='text-center lg:text-start'>
                     <p className="text-sm lg:text-lg mb-2">
                         Take a look at my professional experience and skills.
                     </p>

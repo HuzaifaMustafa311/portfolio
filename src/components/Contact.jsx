@@ -38,7 +38,7 @@ function Contact() {
       <div className="container mx-auto px-6 lg:px-20">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-x-10">
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
-            <h2 className="text-2xl font-bold text-[#3b82f6] dark:text-white mb-8">
+            <h2 className="md:text-3xl text-2xl font-bold text-[#3b82f6] dark:text-white mb-8">
               Feel Free to Contact Me
             </h2>
 
@@ -111,7 +111,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="w-full lg:w-1/2 bg-white dark:bg-[#284f92] p-8 shadow-lg rounded-lg">
+          <div className="w-full lg:w-1/2 bg-white dark:bg-[#284f92] md:p-8 p-4 shadow-lg rounded-lg">
             <form onSubmit={onSubmit1}>
               <div className="mb-5 grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>

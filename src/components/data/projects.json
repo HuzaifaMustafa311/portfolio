@@ -16,7 +16,7 @@
     {
         "id": 3,
         "title": "Understanding Diabetes",
-        "description": "The International Diabetes Federation (IDF) is an organization that represents the interests of the growing number of people with diabetes.",
+        "description": "The International Diabetes Federation (IDF) is an organization that represents the interests of the growing number of people with diabetes",
         "imageSrc": "assets/img/understanding-dia.png",
         "link": "http://understandingdiabetes.org/"
     },
@@ -30,21 +30,21 @@
     {
         "id": 5,
         "title": "ZP Training",
-        "description": "Zenith Professional Training (ZPT) is accredited by the British Accreditation Council (BAC) as a short course provider in UK",
+        "description": "Zenith Professional Training (ZPT) is accredited by the British Accreditation Council (BAC) as a short course provider in United Kingdom (UK)",
         "imageSrc": "assets/img/zpt.png",
         "link": "https://zptraining.com/"
     },
     {
         "id": 6,
         "title": "Rishta Manzoor",
-        "description": "Rishtamanzoor.Com (a trading name of Rishta ManzoorEnterprise Limited) a registered company in the Pakistan",
+        "description": "Rishtamanzoor.Com is a trending name of Rishta ManzoorEnterprise Limited a registered company in the Pakistan for Marriage Purpose",
         "imageSrc": "assets/img/rishta.png",
         "link": "https://rishtamanzoor.com/"
     },
     {
         "id": 7,
         "title": "Rocketerias",
-        "description": "Rocketerias is a company that supply, engineering, automation and implementation of projects that require professional audio and video.",
+        "description": "Rocketerias is a company that supply, engineering, automation and implementation of projects that require professional audio and video",
         "imageSrc": "assets/img/rocket.png",
         "link": "https://www.rocketerias.com/"
     }
