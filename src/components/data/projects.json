@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "Portugal MLS",
+        "description": "At Portugal MLS committed to empowering real estate professionals, developers, and homebuyers with innovative solutions",
+        "imageSrc": "img/laptop-phone2.png",
+        "link": "https://www.portugalmls.pt/public/portugalmls"
+    },
+    {
+        "id": 2,
+        "title": "SHIP-AFRIKA",
+        "description": "Ship Afrika provides forwarding and shipping services between the United States of America and many countries in Continental Africa",
+        "imageSrc": "img/shipafrika.jpg",
+        "link": "https://shipafrika.com/"
+    },
+    {
+        "id": 3,
+        "title": "Understanding Diabetes",
+        "description": "The International Diabetes Federation (IDF) is an organization that represents the interests of the growing number of people with diabetes.",
+        "imageSrc": "img/understanding-dia.png",
+        "link": "http://understandingdiabetes.org/"
+    },
+    {
+        "id": 4,
+        "title": "Cox & Cox",
+        "description": "Cox & Cox is the latest online furniture and home interior goods retailer to go into administration following the collapse of Made.com",
+        "imageSrc": "img/cox.png",
+        "link": "https://www.coxandcox.co.uk/"
+    },
+    {
+        "id": 5,
+        "title": "ZP Training",
+        "description": "Zenith Professional Training (ZPT) is accredited by the British Accreditation Council (BAC) as a short course provider in UK",
+        "imageSrc": "img/zpt.png",
+        "link": "https://zptraining.com/"
+    },
+    {
+        "id": 6,
+        "title": "Rishta Manzoor",
+        "description": "Rishtamanzoor.Com (a trading name of Rishta ManzoorEnterprise Limited) a registered company in the Pakistan",
+        "imageSrc": "img/rishta.png",
+        "link": "https://rishtamanzoor.com/"
+    },
+    {
+        "id": 7,
+        "title": "Rocketerias",
+        "description": "Rocketerias is a company that supply, engineering, automation and implementation of projects that require professional audio and video.",
+        "imageSrc": "img/rocket.png",
+        "link": "https://www.rocketerias.com/"
+    }
+]

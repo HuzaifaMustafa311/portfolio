@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "role": "Frontend Web Developer",
+        "organisation": "Volpea Solutions",
+        "startDate": "March 2024",
+        "endDate": "Present",
+        "location": "Islamabad, Pakistan",
+        "experiences": "HTML | CSS | Tailwind | SCSS | Material UI | Ant Design | Bootstrap | React & Ngx Bootstrap | JavaScript | JQuery | ReactJS | Angular | Git | Github | Azure | ClickUp | JIRA",
+        "imageSrc": "img/Volpea-logo.png"
+    },
+    {
+        "id": 2,
+        "role": "Frontend Web Developer",
+        "organisation": "Friends IT Solutions",
+        "startDate": "January 2022",
+        "endDate": "February 2024",
+        "location": "Rawalpindi, Pakistan",
+        "experiences": "HTML | CSS | Tailwind CSS | SCSS | Bootstrap 5 | Material UI | JavaScript | JQuery | ReactJS | ClickUp | JIRA | Git | Github | Prototyping in Laravel & PHP",
+        "imageSrc": "img/fis-logo1.png"
+    }
+]
