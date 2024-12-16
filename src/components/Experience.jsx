@@ -15,7 +15,7 @@ const Experience = () => {
                             {/* Image Section */}
                             <div className="min-w-[150px] m-[20px] bg-gray-300">
                                 <img
-                                    src={`src/assets/${data.imageSrc}`}
+                                    src={data.imageSrc}
                                     alt="Image"
                                     className="object-cover h-full w-full"
                                 />
