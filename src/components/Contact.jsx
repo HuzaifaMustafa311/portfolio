@@ -59,7 +59,7 @@ function Contact() {
                 </div>
                 <div className="ml-4">
                   <p className="text-sm text-gray-500 dark:text-gray-200">Phone</p>
-                  <p className="text-lg font-medium text-[#2a5196] dark:text-[#3b81f5]">
+                  <p className="md:text-lg text-[1rem] font-medium text-[#2a5196] dark:text-[#3b81f5]">
                     +92 (306) 5312422
                   </p>
                 </div>
@@ -81,7 +81,7 @@ function Contact() {
                 </div>
                 <div className="ml-4">
                   <p className="text-sm text-gray-500 dark:text-gray-200">Email</p>
-                  <p className="text-lg font-medium text-[#2a5196] dark:text-[#3b81f5]">
+                  <p className="md:text-lg text-[1rem] font-medium text-[#2a5196] dark:text-[#3b81f5]">
                     huzaifamustafa76@gmail.com
                   </p>
                 </div>
@@ -103,7 +103,7 @@ function Contact() {
                 </div>
                 <div className="ml-4">
                   <p className="text-sm text-gray-500 dark:text-gray-200">Address</p>
-                  <p className="text-lg font-medium text-[#2a5196] dark:text-[#3b81f5]">Islamabad,
+                  <p className="md:text-lg text-[1rem] font-medium text-[#2a5196] dark:text-[#3b81f5]">Islamabad,
                     Pakistan
                   </p>
                 </div>
