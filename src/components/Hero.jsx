@@ -4,7 +4,8 @@ import React, { useEffect } from "react";
 import { useMotionTemplate, useMotionValue, motion, animate, useTransform } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import pdf from './pdf/huzaifa_frontend_web_developer_CV.pdf'
-import profileimg from '../assets/img/huzaifa_original_pic_1.jpg'
+import profileimg from '/assets/img/huzaifa_original_pic_1.jpg'
+// import profileimg from '../../public/assets/img/huzaifa_original_pic_1.jpg'
 
 function isWebGLAvailable() {
     try {
