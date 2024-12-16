@@ -37,7 +37,7 @@ function Contact() {
     <section className="bg-gray-50 dark:bg-[#0f1632] py-12" id="Contact">
       <div className="container mx-auto px-6 lg:px-20">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-x-10">
-          <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
+          <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
             <h2 className="md:text-3xl text-2xl font-bold text-[#3b82f6] dark:text-white mb-8">
               Feel Free to Contact Me
             </h2>
