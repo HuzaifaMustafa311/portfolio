@@ -44,13 +44,13 @@ const Projects = () => {
                                 <>
                                     <div key={data.id} className="bg-white dark:bg-[#284f92] text-center rounded-lg overflow-hidden shadow-sm">
                                         <a href="#">
-                                            <img className="rounded-t-lg h-[275px] w-[100%] p-4" src={data.imageSrc} alt="image" />
+                                            <img className="rounded-t-lg h-[285px] md:h-[275px] w-[100%] p-4" src={data.imageSrc} alt="image" />
                                         </a>
                                         <div className="px-5 pb-5 pt-0">
                                             <a href="#">
                                                 <h5 className="mb-2 md:text-2xl text-xl font-bold tracking-tight text-gray-900 dark:text-white">{data.title}</h5>
                                             </a>
-                                            <p className="mb-3 font-normal min-h-[120px] md:min-h-[100px] flex items-center text-gray-900 dark:text-gray-300">{data.description}</p>
+                                            <p className="mb-3 font-normal min-h-[120px] md:min-h-[110px] flex items-center text-gray-900 dark:text-gray-300">{data.description}</p>
                                             <div className='mt-7 mb-3'>
                                                 <a target='_blank' href={data.link} className="bg-[#1e3c73] dark:bg-[#397ded] hover:bg-[#284f93] dark:hover:bg-blue-600 text-white text-sm lg:text-base font-medium py-2 px-6 rounded-full shadow-lg transition-all">
                                                     Explore Project
