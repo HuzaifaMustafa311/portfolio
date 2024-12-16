@@ -7,7 +7,7 @@
         "endDate": "Present",
         "location": "Islamabad, Pakistan",
         "experiences": "HTML | CSS | Tailwind | SCSS | Material UI | Ant Design | Bootstrap | React & Ngx Bootstrap | JavaScript | JQuery | ReactJS | Angular | Git | Github | Azure | ClickUp | JIRA",
-        "imageSrc": "src/assets/img/Volpea-logo.png"
+        "imageSrc": "assets/img/Volpea-logo.png"
     },
     {
         "id": 2,
@@ -17,6 +17,6 @@
         "endDate": "February 2024",
         "location": "Rawalpindi, Pakistan",
         "experiences": "HTML | CSS | Tailwind CSS | SCSS | Bootstrap 5 | Material UI | JavaScript | JQuery | ReactJS | ClickUp | JIRA | Git | Github | Prototyping in Laravel & PHP",
-        "imageSrc": "src/assets/img/fis-logo1.png"
+        "imageSrc": "assets/img/fis-logo1.png"
     }
 ]
