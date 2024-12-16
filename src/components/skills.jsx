@@ -14,7 +14,7 @@ function Skills() {
             {skills.map((data) => (
               <div
                 key={data.id}
-                className="relative group border-white border-2 cursor-pointer rounded-lg md:p-4 p-2 text-center overflow-hidden"
+                className="relative group border-white border-2 cursor-pointer shadow-2xl rounded-lg md:p-4 p-2 text-center overflow-hidden"
               >
                 <div className="absolute inset-0 bg-blue-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out"></div>
                 <span className="relative text-lg sm:text-base lg:text-lg font-medium text-white z-10">
