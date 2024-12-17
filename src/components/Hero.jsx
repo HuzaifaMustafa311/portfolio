@@ -96,7 +96,7 @@ function Hero() {
                             href="https://www.linkedin.com/in/huzaifa-mustafa-frontend-developer/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-[linear-gradient(0deg,_#243971_0%,_#5fc6ff_100%)] hover:shadow-[0_0_5px_#ffffff,0_0_5px_#ffffff] text-gray-100 transition-shadow duration-500 px-3 py-3 md:px-4 md:py-4 me-3 border-2 rounded-full"
+                            className="bg-[linear-gradient(0deg,_#243971_0%,_#5fc6ff_100%)] hover:shadow-[0_0_5px_#ffffff,0_0_5px_#ffffff] text-gray-100 transition-shadow shadow-2xl duration-500 px-3 py-3 md:px-4 md:py-4 me-3 border-2 rounded-full"
                         >
                             <FaLinkedinIn className="w-6 h-6" />
                         </a>
@@ -104,7 +104,7 @@ function Hero() {
                             href="https://wa.me/923065312422"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-[linear-gradient(0deg,_#243971_0%,_#5fc6ff_100%)] hover:shadow-[0_0_5px_#ffffff,0_0_5px_#ffffff] text-gray-100 transition-shadow duration-500 px-3 py-3 md:px-4 md:py-4 me-3 border-2 rounded-full"
+                            className="bg-[linear-gradient(0deg,_#243971_0%,_#5fc6ff_100%)] hover:shadow-[0_0_5px_#ffffff,0_0_5px_#ffffff] text-gray-100 transition-shadow shadow-2xl duration-500 px-3 py-3 md:px-4 md:py-4 me-3 border-2 rounded-full"
                         >
                             <FaWhatsapp className="w-6 h-6" />
                         </a>
@@ -112,13 +112,13 @@ function Hero() {
                             href="https://www.instagram.com/huzaifas1108/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-[linear-gradient(0deg,_#243971_0%,_#5fc6ff_100%)] hover:shadow-[0_0_5px_#ffffff,0_0_5px_#ffffff] text-gray-100 transition-shadow duration-500 px-3 py-3 md:px-4 md:py-4 me-3 border-2 rounded-full"
+                            className="bg-[linear-gradient(0deg,_#243971_0%,_#5fc6ff_100%)] hover:shadow-[0_0_5px_#ffffff,0_0_5px_#ffffff] text-gray-100 transition-shadow shadow-2xl duration-500 px-3 py-3 md:px-4 md:py-4 me-3 border-2 rounded-full"
                         >
                             <FaInstagram className="w-6 h-6" />
                         </a>
                         <a
                             href="mailto:huzaifamustafa76@gmail.com"
-                            className="bg-[linear-gradient(0deg,_#243971_0%,_#5fc6ff_100%)] hover:shadow-[0_0_5px_#ffffff,0_0_5px_#ffffff] text-gray-100 transition-shadow duration-500 px-3 py-3 md:px-4 md:py-4 me-3 border-2 rounded-full"
+                            className="bg-[linear-gradient(0deg,_#243971_0%,_#5fc6ff_100%)] hover:shadow-[0_0_5px_#ffffff,0_0_5px_#ffffff] text-gray-100 transition-shadow shadow-2xl duration-500 px-3 py-3 md:px-4 md:py-4 me-3 border-2 rounded-full"
                         >
                             <FaEnvelope className="w-6 h-6" />
                         </a>
@@ -126,7 +126,7 @@ function Hero() {
                             href="https://github.com/HuzaifaMustafa311"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-[linear-gradient(0deg,_#243971_0%,_#5fc6ff_100%)] hover:shadow-[0_0_5px_#ffffff,0_0_5px_#ffffff] text-gray-100 transition-shadow duration-500 px-3 py-3 md:px-4 md:py-4 me-3 border-2 rounded-full"
+                            className="bg-[linear-gradient(0deg,_#243971_0%,_#5fc6ff_100%)] hover:shadow-[0_0_5px_#ffffff,0_0_5px_#ffffff] text-gray-100 transition-shadow shadow-2xl duration-500 px-3 py-3 md:px-4 md:py-4 me-3 border-2 rounded-full"
                         >
                             <FaGithub className="w-6 h-6" />
                         </a>
