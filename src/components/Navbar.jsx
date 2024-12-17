@@ -29,11 +29,31 @@ function Navbar() {
         <nav className="fixed top-0 left-0 w-full z-50 bg-[#020617] dark:bg-gray-900 backdrop-blur-lg border-b border-white/20 dark:border-gray-800">
             <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
                 {/* Logo */}
-                <a href="/" className="flex items-center space-x-3">
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap text-white dark:text-gray-200">
+
+                {/* <div className="group relative inline-block">
+                    <a
+                        href="/"
+                        className="flex items-center space-x-3 cursor-pointer text-white dark:text-gray-200 group-hover:text-[#85c1e8]"
+                    >
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap">
+                            Huzaifa Mustafa
+                        </span>
+                    </a>
+                    <span
+                        className="absolute bottom-[-4px] left-0 w-0 h-[3px] bg-[#85c1e8] transition-all duration-300 ease-in-out group-hover:w-full"
+                    ></span>
+                </div> */}
+
+
+                <div className="group relative">
+                    <a
+                        href="/"
+                        className="block py-2 md:px-1 lg:px-2 font-semibold whitespace-nowrap text-2xl cursor-pointer text-white dark:text-gray-300 group-hover:text-[#85c1e8]"
+                    >
                         Huzaifa Mustafa
-                    </span>
-                </a>
+                        <span className="absolute bottom-[-4px] left-0 w-0 h-[3px] bg-[#85c1e8] transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                    </a>
+                </div>
 
                 {/* Hamburger Menu for Mobile */}
                 <button
@@ -67,80 +87,105 @@ function Navbar() {
                         className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 
                                    space-x-4 md:space-x-6 lg:space-x-8 p-4 md:p-0"
                     >
-                        <Link
-                            smooth={true}
-                            duration={800}
-                            to="Home"
-                            className="block py-2 md:px-1 lg:px-2 cursor-pointer hover:border-b-[3px] border-b-[3px] border-[#111827] hover:border-yellow-500 text-white dark:text-gray-300"
-                        >
-                            Home
-                        </Link>
-                        <Link
-                            smooth={true}
-                            duration={800}
-                            to="Experience"
-                            className="block py-2 md:px-1 lg:px-2 cursor-pointer hover:border-b-[3px] border-b-[3px] border-[#111827] hover:border-yellow-500 text-white dark:text-gray-300"
-                        >
-                            Experience
-                        </Link>
-                        <Link
-                            smooth={true}
-                            duration={800}
-                            to="skills"
-                            className="block py-2 md:px-1 lg:px-2 cursor-pointer hover:border-b-[3px] border-b-[3px] border-[#111827] hover:border-yellow-500 text-white dark:text-gray-300"
-                        >
-                            Skills
-                        </Link>
-                        <Link
-                            smooth={true}
-                            duration={800}
-                            to="Projects"
-                            className="block py-2 md:px-1 lg:px-2 cursor-pointer hover:border-b-[3px] border-b-[3px] border-[#111827] hover:border-yellow-500 text-white dark:text-gray-300"
-                        >
-                            Projects
-                        </Link>
-                        <Link
-                            smooth={true}
-                            duration={800}
-                            to="Resume"
-                            className="block py-2 md:px-1 lg:px-2 cursor-pointer hover:border-b-[3px] border-b-[3px] border-[#111827] hover:border-yellow-500 text-white dark:text-gray-300"
-                        >
-                            Resume
-                        </Link>
-                        <Link
-                            smooth={true}
-                            duration={800}
-                            to="Contact"
-                            className="block py-2 md:px-1 lg:px-2 cursor-pointer hover:border-b-[3px] border-b-[3px] border-[#111827] hover:border-yellow-500 text-white dark:text-gray-300"
-                        >
-                            Contact
-                        </Link>
-                        <button
-                            onClick={toggleDarkMode}
-                            className="block py-2 md:px-1 lg:px-2 cursor-pointer hover:border-b-[3px] border-b-[3px] border-[#111827] hover:border-yellow-500 text-white dark:text-gray-300"
-                        >
-                            {isDarkMode ? (
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 285.919 285.919"
-                                    width="20"
-                                    height="20"
-                                    fill="currentColor"
-                                >
-                                    <path d="M142.959 0C64.131 0 0 64.132 0 142.96s64.131 142.959 142.959 142.959 142.96-64.131 142.96-142.959S221.787 0 142.959 0zm0 260.919V25c65.043 0 117.96 52.917 117.96 117.96 0 65.043-52.917 117.959-117.96 117.959z" />
-                                </svg>
-                            ) : (
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    fill="currentColor"
-                                    width="20"
-                                    height="20"
-                                >
-                                    <path d="M12 4a1 1 0 011 1V6a1 1 0 01-2 0V5a1 1 0 011-1zm0 12a1 1 0 011 1v1a1 1 0 01-2 0v-1a1 1 0 011-1zM4 11a1 1 0 011-1H6a1 1 0 010 2H5a1 1 0 01-1-1zm14 0a1 1 0 011-1h1a1 1 0 010 2h-1a1 1 0 01-1-1zM7.05 7.05a1 1 0 011.41-1.41L9.17 6.34a1 1 0 11-1.41 1.41l-1.12-1.12zm9.9 9.9a1 1 0 011.41-1.41l1.12 1.12a1 1 0 01-1.41 1.41l-1.12-1.12zM7.05 16.95a1 1 0 011.41 1.41l-1.12 1.12a1 1 0 01-1.41-1.41l1.12-1.12zm9.9-9.9a1 1 0 011.41-1.41l-1.12-1.12a1 1 0 01-1.41-1.41l1.12-1.12zM12 8a4 4 0 110 8 4 4 0 010-8z" />
-                                </svg>
-                            )}
-                        </button>
+                        <div className="group relative">
+                            <Link
+                                smooth={true}
+                                duration={800}
+                                to="Home"
+                                className="block py-2 md:px-1 lg:px-2 cursor-pointer text-white dark:text-gray-300 group-hover:text-[#85c1e8]"
+                            >
+                                Home
+                                <span className="absolute bottom-[-4px] left-0 w-0 h-[3px] bg-[#85c1e8] transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                            </Link>
+                        </div>
+                        <div className="group relative">
+                            <Link
+                                smooth={true}
+                                duration={800}
+                                to="Experience"
+                                className="block py-2 md:px-1 lg:px-2 cursor-pointer text-white dark:text-gray-300 group-hover:text-[#85c1e8]"
+                            >
+                                Experience
+                                <span className="absolute bottom-[-4px] left-0 w-0 h-[3px] bg-[#85c1e8] transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                            </Link>
+                        </div>
+                        <div className="group relative">
+                            <Link
+                                smooth={true}
+                                duration={800}
+                                to="skills"
+                                className="block py-2 md:px-1 lg:px-2 cursor-pointer text-white dark:text-gray-300 group-hover:text-[#85c1e8]"
+                            >
+                                Skills
+                                <span className="absolute bottom-[-4px] left-0 w-0 h-[3px] bg-[#85c1e8] transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                            </Link>
+                        </div>
+                        <div className="group relative">
+                            <Link
+                                smooth={true}
+                                duration={800}
+                                to="Projects"
+                                className="block py-2 md:px-1 lg:px-2 cursor-pointer text-white dark:text-gray-300 group-hover:text-[#85c1e8]"
+                            >
+                                Projects
+                                <span className="absolute bottom-[-4px] left-0 w-0 h-[3px] bg-[#85c1e8] transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                            </Link>
+                        </div>
+
+                        <div className="group relative">
+                            <Link
+                                smooth={true}
+                                duration={800}
+                                to="Resume"
+                                className="block py-2 md:px-1 lg:px-2 cursor-pointer text-white dark:text-gray-300 group-hover:text-[#85c1e8]"
+                            >
+                                Resume
+                                <span className="absolute bottom-[-4px] left-0 w-0 h-[3px] bg-[#85c1e8] transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                            </Link>
+                        </div>
+
+                        <div className="group relative">
+                            <Link
+                                smooth={true}
+                                duration={800}
+                                to="Contact"
+                                className="block py-2 md:px-1 lg:px-2 cursor-pointer text-white dark:text-gray-300 group-hover:text-[#85c1e8]"
+                            >
+                                Contact
+                                <span className="absolute bottom-[-4px] left-0 w-0 h-[3px] bg-[#85c1e8] transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                            </Link>
+                        </div>
+
+                        <div className="group relative">
+                            <button
+                                onClick={toggleDarkMode}
+                                className="block py-2 md:px-1 lg:px-2 cursor-pointer text-white dark:text-gray-300 group-hover:text-[#85c1e8]"
+                            >
+                                {isDarkMode ? (
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 285.919 285.919"
+                                        width="20"
+                                        height="20"
+                                        fill="currentColor"
+                                    >
+                                        <path d="M142.959 0C64.131 0 0 64.132 0 142.96s64.131 142.959 142.959 142.959 142.96-64.131 142.96-142.959S221.787 0 142.959 0zm0 260.919V25c65.043 0 117.96 52.917 117.96 117.96 0 65.043-52.917 117.959-117.96 117.959z" />
+                                    </svg>
+                                ) : (
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                        width="20"
+                                        height="20"
+                                    >
+                                        <path d="M12 4a1 1 0 011 1V6a1 1 0 01-2 0V5a1 1 0 011-1zm0 12a1 1 0 011 1v1a1 1 0 01-2 0v-1a1 1 0 011-1zM4 11a1 1 0 011-1H6a1 1 0 010 2H5a1 1 0 01-1-1zm14 0a1 1 0 011-1h1a1 1 0 010 2h-1a1 1 0 01-1-1zM7.05 7.05a1 1 0 011.41-1.41L9.17 6.34a1 1 0 11-1.41 1.41l-1.12-1.12zm9.9 9.9a1 1 0 011.41-1.41l1.12 1.12a1 1 0 01-1.41 1.41l-1.12-1.12zM7.05 16.95a1 1 0 011.41 1.41l-1.12 1.12a1 1 0 01-1.41-1.41l1.12-1.12zm9.9-9.9a1 1 0 011.41-1.41l-1.12-1.12a1 1 0 01-1.41-1.41l1.12-1.12zM12 8a4 4 0 110 8 4 4 0 010-8z" />
+                                    </svg>
+                                )}
+                                <span className="absolute bottom-[-4px] left-0 w-0 h-[3px] bg-[#85c1e8] transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                            </button>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -149,3 +194,7 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+
+

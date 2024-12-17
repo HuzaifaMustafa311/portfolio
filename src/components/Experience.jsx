@@ -11,7 +11,7 @@ const Experience = () => {
 
                         <div
                             key={data.id}
-                            className="max-w-[800px] md:max-h-[165px] md:h-[165px] shadow-[0px_5px_15px_rgb(40_38_105_/_54%)] cursor-pointer hover:bg-[#bcccf1] dark:hover:bg-[#3361af] bg-white dark:bg-[#284f92] rounded-lg flex flex-col md:flex-row overflow-hidden"
+                            className="max-w-[800px] md:max-h-[165px] md:h-[165px] shadow-[0px_5px_15px_rgb(40_38_105_/_54%)] cursor-pointer md:hover:bg-[#bcccf1] dark:hover:bg-[#3361af] bg-white dark:bg-[#284f92] rounded-lg flex flex-col md:flex-row overflow-hidden"
                         >
                             {/* Image Section */}
 
