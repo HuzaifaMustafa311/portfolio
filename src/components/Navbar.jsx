@@ -30,21 +30,6 @@ function Navbar() {
             <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
                 {/* Logo */}
 
-                {/* <div className="group relative inline-block">
-                    <a
-                        href="/"
-                        className="flex items-center space-x-3 cursor-pointer text-white dark:text-gray-200 group-hover:text-[#85c1e8]"
-                    >
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap">
-                            Huzaifa Mustafa
-                        </span>
-                    </a>
-                    <span
-                        className="absolute bottom-[-4px] left-0 w-0 h-[3px] bg-[#85c1e8] transition-all duration-300 ease-in-out group-hover:w-full"
-                    ></span>
-                </div> */}
-
-
                 <div className="group relative">
                     <a
                         href="/"
