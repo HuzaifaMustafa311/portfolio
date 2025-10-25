@@ -44,7 +44,7 @@ const Projects = () => {
                                 <>
                                     <div key={data.id} className="bg-white dark:bg-[#284f92] text-center rounded-lg overflow-hidden shadow-md">
                                         <a href="#">
-                                            <img className="rounded-t-lg h-[200px] md:h-[220px] w-[100%] p-4" src={data.imageSrc} alt="image" />
+                                            <img className="rounded-t-lg h-[200px] md:h-[220px] w-[100%] p-3" src={data.imageSrc} alt="image" />
                                         </a>
                                         <div className="px-5 pb-5 pt-0">
                                             <a href="#">
