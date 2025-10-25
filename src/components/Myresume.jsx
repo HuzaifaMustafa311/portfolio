@@ -19,7 +19,7 @@ const Myresume = () => {
                         href={pdf} download="Huzaifa_Mustafa_Frontend_Developer_Resume.pdf"
                         className="bg-blue-500 hover:bg-blue-600 text-white text-sm lg:text-base font-medium py-3 px-6 rounded-full shadow-lg transition-all"
                     >
-                        Download My CV
+                        Download My Resume
                     </a>
                 </div>
             </div>

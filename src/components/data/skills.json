@@ -78,5 +78,17 @@
     {
         "id": 20,
         "title": "JIRA"
+    },
+    {
+        "id": 21,
+        "title": "PHP"
+    },
+    {
+        "id": 22,
+        "title": "UI Developer"
+    },
+    {
+        "id": 23,
+        "title": "Laravel"
     }
 ]

@@ -39,7 +39,7 @@ function Contact() {
         <div className="flex flex-col lg:flex-row justify-between items-start gap-x-10">
           <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
             <h2 className="md:text-3xl text-2xl font-bold text-[#3b82f6] dark:text-white mb-8">
-              Feel Free to Contact Me
+              Contact
             </h2>
 
             <div className="space-y-6">
@@ -60,7 +60,7 @@ function Contact() {
                 <div className="ml-4">
                   <p className="text-sm text-gray-500 dark:text-gray-200">Phone</p>
                   <p className="md:text-lg text-[1rem] font-medium text-[#2a5196] dark:text-[#3b81f5]">
-                    +92 (306) 5312422
+                   +97450766454 | +34600482272 | +923105240197
                   </p>
                 </div>
               </div>
@@ -103,8 +103,8 @@ function Contact() {
                 </div>
                 <div className="ml-4">
                   <p className="text-sm text-gray-500 dark:text-gray-200">Address</p>
-                  <p className="md:text-lg text-[1rem] font-medium text-[#2a5196] dark:text-[#3b81f5]">Islamabad,
-                    Pakistan
+                  <p className="md:text-lg text-[1rem] font-medium text-[#2a5196] dark:text-[#3b81f5]">Doha,
+                    Qatar
                   </p>
                 </div>
               </div>

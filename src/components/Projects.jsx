@@ -10,7 +10,7 @@ const Projects = () => {
         dots: true,
         infinite: true,
         speed: 2000,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
@@ -42,9 +42,9 @@ const Projects = () => {
                             {projects.map((data) => (
 
                                 <>
-                                    <div key={data.id} className="bg-white dark:bg-[#284f92] text-center rounded-lg overflow-hidden shadow-sm">
+                                    <div key={data.id} className="bg-white dark:bg-[#284f92] text-center rounded-lg overflow-hidden shadow-md">
                                         <a href="#">
-                                            <img className="rounded-t-lg h-[285px] md:h-[275px] w-[100%] p-4" src={data.imageSrc} alt="image" />
+                                            <img className="rounded-t-lg h-[200px] md:h-[220px] w-[100%] p-4" src={data.imageSrc} alt="image" />
                                         </a>
                                         <div className="px-5 pb-5 pt-0">
                                             <a href="#">

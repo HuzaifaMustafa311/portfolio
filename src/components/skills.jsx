@@ -6,7 +6,7 @@ function Skills() {
     <>
       <section id="skills" className="bg-[linear-gradient(135deg,_#1e3c72,_#2a5298)] bg-cover bg-center text-white py-12 px-4 sm:px-6">
         <div className="container mx-auto px-6 lg:px-20">
-          <h2 className="md:text-3xl text-2xl text-center font-bold mb-4 sm:mb-6">Skills</h2>
+          <h2 className="md:text-3xl text-2xl text-center font-bold mb-4 sm:mb-6">Technical Skills</h2>
           <h3 className="text-lg sm:text-xl lg:text-2xl text-center font-medium mb-8">
             My Expertise in Latest Technologies
           </h3>

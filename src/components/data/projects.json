@@ -1,48 +1,55 @@
 [
     {
         "id": 1,
-        "title": "Portugal MLS",
-        "description": "At Portugal MLS committed to empowering real estate professionals, developers, and homebuyers with innovative solutions",
-        "imageSrc": "assets/img/laptop-phone2.png",
-        "link": "https://www.portugalmls.pt/public/portugalmls"
+        "title": "THABT",
+        "description": "Thabt.qa is a global eCommerce platform offering premium European-designed mounting solutions and accessories for vehicles, focused on durability, compatibility.",
+        "imageSrc": "assets/img/thabt.png",
+        "link": "https://www.thabt.qa/"
     },
     {
         "id": 2,
+        "title": "Sync MLS",
+        "description": "At Sync MLS committed to empowering real estate professionals, developers, and homebuyers with innovative solutions",
+        "imageSrc": "assets/img/laptop-phone2.png",
+        "link": "https://www.syncmls.com/"
+    },
+    {
+        "id": 3,
         "title": "SHIP-AFRIKA",
         "description": "Ship Afrika provides forwarding and shipping services between the United States of America and many countries in Continental Africa",
         "imageSrc": "assets/img/shipafrika.jpg",
         "link": "https://shipafrika.com/"
     },
     {
-        "id": 3,
-        "title": "Understanding Diabetes",
+        "id": 4,
+        "title": "IDF School of Diabetes",
         "description": "The International Diabetes Federation (IDF) is an organization that represents the interests of the growing number of people with diabetes",
         "imageSrc": "assets/img/understanding-dia.png",
         "link": "http://understandingdiabetes.org/"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Cox & Cox",
         "description": "Cox & Cox is the latest online furniture and home interior goods retailer to go into administration following the collapse of Made.com",
         "imageSrc": "assets/img/cox.png",
         "link": "https://www.coxandcox.co.uk/"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "ZP Training",
         "description": "Zenith Professional Training (ZPT) is accredited by the British Accreditation Council (BAC) as a short course provider in United Kingdom (UK)",
         "imageSrc": "assets/img/zpt.png",
         "link": "https://zptraining.com/"
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Rishta Manzoor",
         "description": "Rishtamanzoor.Com is a trending name of Rishta ManzoorEnterprise Limited a registered company in the Pakistan for Marriage Purpose",
         "imageSrc": "assets/img/rishta.png",
         "link": "https://rishtamanzoor.com/"
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Rocketerias",
         "description": "Rocketerias is a company that supply, engineering, automation and implementation of projects that require professional audio and video",
         "imageSrc": "assets/img/rocket.png",
