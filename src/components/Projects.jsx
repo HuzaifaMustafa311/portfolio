@@ -38,7 +38,7 @@ const Projects = () => {
                     <h3 className="md:text-2xl text-xl text-center dark:text-white font-semibold mb-8">My Real-Time Projects in Different Technologies</h3>
                     <div className="slider-container">
 
-                        <Slider {...settings}>
+                        <Slider {...settings}> 
                             {projects.map((data) => (
 
                                 <>
